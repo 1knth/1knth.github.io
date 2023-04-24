@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenneth's Portfolio</title>
+    <link rel="stylesheet" href="/gallery/gallery.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>  
+    <link href="https://fonts.cdnfonts.com/css/tt-commons" rel="stylesheet">
+</head>
+<body style="background-color: #0d0e15;"> 
+    <div class="container">
+        <!-- navbar -->
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="/index/index.html">home</a></li>
+                    <li><a href="/gallery/gallery.html">gallery</a></li>
+                    <li><a href="/projects/projects.html">projects</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="carousel-header-container">
+            <h1 id="carousel-header">FEATURED</h1>
+        </div>
+        <div class="carousel-container">
+            <div class="cell"><img id="tivo" src="/gallery/gallery slideshow/Work/Tivo/tivo.png"></div>
+            <div class="cell"><img src="/images/finsihed.png"></div>
+            <div class="cell"><img src="/gallery/gallery slideshow/Work/shinyinstinct/final/bug out copy.png"></div>
+            <div class="cell"><img src="/images/pfp1.png"></div>
+        </div>
+
+
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script type="text/javascript">
+            $('.carousel-container').flickity({
+            // options
+            cellAlign: 'left',
+            wrapAround: true,
+            freeScroll: true
+            });
+        </script>
+    </div>
+    <div class="title-container">
+        <div class="block">
+            <h1 id="title">LOOKBOOK</h1>
+        </div>
+    </div>
+    <div class="gallery-container">
+        <div class="grid">
+            <div class="images"><img src="/gallery/gallery slideshow/Work/Tivo/tivo.png" alt=""></div>
+            <div class="images"><img src="/images/finsihed.png" alt=""></div>
+            <div class="images"><img src="/images/banner2.png" alt=""></div>
+            <div class="images"><img src="/gallery/gallery slideshow/Work/shinyinstinct/final/bug out copy.png" alt=""></div>
+            <div class="images"><img src="/images/kast.png" alt=""></div>
+            <div class="images"><img src="/images/pfp1.png" alt=""></div>
+        </div>
+    </div>
+    <div class="popup-image">
+        <span>&times;</span>
+        <img src="/gallery/gallery slideshow/Work/Tivo/tivo.png" alt="">
+        <!-- <img src="/images/finsihed.png" alt=""></div>
+        <img src="/images/banner2.png" alt=""></div>
+        <img src="/gallery/gallery slideshow/Work/shinyinstinct/final/bug out copy.png" alt=""></div>
+        <img src="/images/kast.png" alt=""></div>
+        <img src="/images/pfp1.png" alt=""></div> -->
+    </div>
+    <script src="/gallery/gallery.js"></script>
+    <footer>
+        <div class="footer-container">
+            <h2>Kenneth Yang</h2>
+            <p class="header-2">If you have any inquiries, feel free to reach out to me through my email:</p>
+            <p class="email">knthyang@gmail.com</p>
+            <ul class="socials">
+                <!-- linkedin -->
+                <li><a href="https://www.linkedin.com/in/kenneth-yang-44006b234/" target="_blank"><img src="/images/socials/[CITYPNG.COM]HD White Outline Linkedin Round Icon PNG - 1700x1700.png" alt=""></a></li>
+                <!-- github -->
+                <li><a href="https://github.com/1knth" target="_blank"><img src="/images/socials/favpng_github-pages-logo-repository-fork.png"alt=""></a></li>
+            </ul>  
+        </div>
+        <div class="footer-bottom">
+            <h3>_______________________________________________________________________________________________________________________________________________________________________</h3>
+            <p>© Kenneth Yang™ 2023 | All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
