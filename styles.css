@@ -10,7 +10,7 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/background2.png);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/images/background2.png);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -139,6 +139,8 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1 1;
+    flex-shrink: 1;
     margin-bottom: 50px;
     width: 85vw;
     height: 500px;
@@ -147,6 +149,8 @@ button:hover {
     border-radius: 50px;
     background-color: #292d46;
     text-align: center;
+    padding-bottom: 5%;
+    padding-top: 3%;
 }
 
 #about-header-name-color {
@@ -154,16 +158,16 @@ button:hover {
 }
 
 #about-header {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
     color: #fff;
     font-size: 45px;
 }
 
 #about-text  {
-    padding-top: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
     color: #fff;
     font-size: 25px;
 }
