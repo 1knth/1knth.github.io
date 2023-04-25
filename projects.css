@@ -23,7 +23,7 @@
 .container {
     width: 100%;
     height: auto;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/background2.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/images/background2.png);
     background-size: cover;
     padding: 100px;
     object-fit: cover;
@@ -50,6 +50,7 @@
     z-index: 30;
     background-color: #e1ddff;
     transform: scale(1.05);
+    /* box-shadow: 0 0 30px 10px #ffffff; */
 }
 
 .card img:hover {
